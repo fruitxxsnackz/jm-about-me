@@ -1,0 +1,252 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: powderblue;
+ color: darkslategrey;
+ font-family: Arial, Helvetica, sans-serif;
+ height: 80px;
+ width: 100%;
+}
+
+header h1 {
+    font-size: 40px;
+    width: 400px;
+    padding-right: 20px;
+    display: inline-block;
+ background-color: lightcyan;
+ position: relative;
+ top: 19px;
+ text-align: right;
+ }
+
+ header * {
+ display: inline;
+ padding: 0px;
+ margin: 0px;
+ }
+ 
+ nav li a {
+    list-style-type: none;
+ text-decoration: none;
+ border-bottom: 3px solid;
+ margin: 30px;
+ }
+
+ .navbar {
+ display: flex;
+ float: right;
+ padding-top: 15px;
+ margin: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ }
+
+ a:link, a:visited {
+    color: darkslategrey;
+ }
+
+ .main-img {
+   background-image: url(./images/img.pattern.png);
+   background-size: cover;
+   width: 100%;
+   height: 200px;
+   margin: 0%;
+
+ }
+
+ main {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ section {
+    margin: 20px 0px 150px 100px;
+ }
+ .content {
+ margin: 20px 0px 20px 20px;
+ width: 100%;
+}
+
+ h2 {
+    border-right: 3px solid darkslategrey;
+    float: left; 
+    padding-right: 10px;
+    color: darkslategrey;
+ }
+
+ .about-paragraph {
+ margin-left: 35px;
+ padding-left: 80px;
+ width: 60%;
+ font-size: 17px;
+ line-height: 1.5;
+ display: inline-block;
+ position: relative;
+right: 5px; top: 30px;
+ color: darkslategrey;
+ }
+
+ .about-me h2 {
+    position: relative;
+ left: 70px;
+    height: 170px;
+ }
+
+ .work h2 {
+ position: relative;
+ left: 120px; bottom: 10px;
+ height: 800px;
+ }
+ 
+ .contact-me h2 {
+  position: relative;
+  left: 50px; bottom: 40px;
+  height: 110px;
+  margin-top: -70px;
+ }
+
+ .resume h2 {
+    height: 230px;
+    position: relative;
+  bottom: 150px; left: 86px;
+ }
+
+ .contact-list {
+ display: inline-block;
+ list-style-type: none;
+ display: flex;
+ justify-content: space-between;
+ width: 55%;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ position: relative;
+left: 90px; bottom: 75px;
+ color: darkslategrey;
+ }
+ 
+ .contact-list li {
+ border-bottom: 4px solid darkslategrey;
+ padding-bottom: 10px;
+ }
+
+ a:link {
+    text-decoration: none;
+   color: darkslategrey;
+ }
+
+ .inline p {
+ position: relative;
+ bottom: 90px; right: 595px;
+ background-color: lightblue;
+ display: inline-block;
+ padding: 20px;
+ font-size: 20px;
+ width: 210px;
+ }
+
+ .unfin p {
+    position: relative;
+   bottom: 75px; right: 175px;
+    background-color: lightblue;
+    display: inline-block;
+    padding: 10px;
+    width: 120px;
+    font-size: 18px;
+ }
+
+ .resume p {
+    background-color: lightblue;
+    display: inline-block;
+    padding: 10px;
+    width: 120px;
+    position: relative;
+    font-size: 18px;
+    right: 129px; bottom: 190px;
+ }
+
+ .projects {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+
+.project1 {
+    width: 725px;
+    border: 5px solid lightblue;
+    position: relative;
+    left: 150px; bottom: 10px;
+    margin: 10px 10px 10px 10px;
+    -webkit-filter: brightness(75%);
+    -webkit-transition: all 1s ease;
+    }
+   
+    .project2 {
+    width: 330px;
+    height: 150px;
+    position: relative;
+    left: 150px; bottom: 10px;
+    margin: -20px -15px 10px 10px;
+    border: 5px solid lightblue;
+    -webkit-filter: brightness(75%);
+    -webkit-transition: all 1s ease;
+    }
+   
+   .project3 {
+       width: 330px;
+       height: 150px;
+       position: relative;
+       left: 150px; bottom: 10px;
+       margin: -20px -15px 10px -70px;
+    border: 5px solid lightblue;
+    -webkit-filter: brightness(75%);
+    -webkit-transition: all 1s ease;
+   }
+   
+   .project4 {
+   width: 330px;
+   height: 150px;
+   position: relative;
+   left: 150px; bottom: 10px;
+   margin: -10px -15px 10px 10px;
+    border: 5px solid lightblue;
+    -webkit-filter: brightness(75%);
+    -webkit-transition: all 1s ease;
+   }
+   
+   .project5 {
+   width: 330px;
+   height: 150px;
+   position: relative;
+   left: 150px; bottom: 10px;
+   margin: -10px -15px 10px -70px;
+    border: 5px solid lightblue;
+    -webkit-filter: brightness(75%);
+    -webkit-transition: all 1s ease;
+   }
+   
+.about-me {
+ padding-top: 20px;
+}
+
+ .resume-img {
+    width: 330px;
+    height: 200px;
+    position: relative;
+    bottom: 130px; left: 196px;
+    margin: -10px -15px 10px -70px;
+    border: 5px solid lightblue;
+    -webkit-filter: brightness(75%);
+    -webkit-transition: all 1s ease;
+ }
+
+ .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .resume-img:hover {
+    -webkit-filter: brightness(100%);
+ }
+
