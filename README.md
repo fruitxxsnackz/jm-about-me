@@ -1,5 +1,5 @@
 ## Description
-Creating webpage that displays student portfolio.
+Creating webpage that displays student portfolio. Using HTML/CSS, this gitpage was created and customized.
 
 ## Webpage Preview
 Copy:
